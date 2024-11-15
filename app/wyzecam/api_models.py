@@ -26,6 +26,7 @@ MODEL_NAMES = {
     "HL_WCO2": "Outdoor V2",
     "AN_RSCW": "Battery Cam Pro",
     "LD_CFP": "Floodlight Pro",
+    "GW_DBD": "Doorbell Duo",
 }
 
 # These cameras don't seem to support WebRTC
@@ -51,7 +52,7 @@ BATTERY_CAMS = {"WVOD1", "HL_WCO2", "AN_RSCW"}
 
 AUDIO_16k = {"WYZE_CAKP2JFUS", "HL_CAM3P", "MODEL_HL_PANP"}
 # Doorbells
-DOORBELL = {"WYZEDB3", "HL_DB2"}
+DOORBELL = {"WYZEDB3", "HL_DB2", "GW_DBD"}
 
 FLOODLIGHT_CAMS = {"HL_CFL2"}
 
